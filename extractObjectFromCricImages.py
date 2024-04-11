@@ -76,9 +76,9 @@ def getResultsFromYoloDirectly(image):
 
 print('\nFetching CRIC Data...')
 
-train_file_path = '/home/aritra/cric/train_questions.json'
-val_file_path = '/home/aritra/cric/val_questions.json'
-test_file_path = '/home/aritra/cric/test_v1_questions.json'
+train_file_path = 'filepath'
+val_file_path = 'filepath'
+test_file_path = 'filepath'
 
 # Training Set
 with open(train_file_path, "r") as file:
